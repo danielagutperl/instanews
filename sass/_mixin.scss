@@ -1,0 +1,13 @@
+// EXAMPLE 1:
+@mixin primary-links {
+    color: blue;
+    text-decoration: none;
+ }
+ a { @include primary-links; } // use @include to call the mixin
+ // EXAMPLE 2:
+ @mixin secondary-links {
+    a {
+       color: red;
+       text-decoration: none;
+    }
+ }
